@@ -35,9 +35,6 @@ module.exports = {
         white2: {
           DEFAULT: '#cacaca'
         },
-        white3: {
-          DEFAULT: '#f0f0f0'
-        }
       }
     },
   },
