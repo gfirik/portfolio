@@ -6,14 +6,14 @@ import {GiTie} from 'react-icons/gi';
 
 const Sidebar = () => {
     return (
-        <div className="p-5 text-center font-montserrat md:text-sm">
+        <div className="flex flex-col p-5 text-center font-montserrat md:text-sm">
             <div className="w-32 h-32 mx-auto rounded-full">
                 <Image 
                     src={profilePic} 
                     alt="avatar"
                 />
             </div>
-            <h2 className="my-4 font-medium tracking-wider text-3x1 font-inconsolata">
+            <h2 className="my-4 text-3xl font-medium tracking-wider font-inconsolata">
                 <span className="text-ming">Firdavs </span>
                 Gafurjonov
             </h2>

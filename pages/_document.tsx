@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/do
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html class="dark">
         <Head>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -12,7 +12,7 @@ class MyDocument extends Document {
                 rel="stylesheet" 
             />
         </Head>
-        <body className="grid w-screen h-full text-black bg-gradient-to-r from-white2 to-white place-items-center font-montserrat">
+        <body className="mb-4 text-black bg-fixed bg-gradient-to-r from-white2 to-white font-montserrat">
           <Main />
           <NextScript />
         </body>

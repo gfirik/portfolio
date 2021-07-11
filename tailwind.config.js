@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     boxShadow: {
       DEFAULT: '4px 4px 8px 4px #b8b8b8, -5px -5px 10px -5px #ffffff', 
