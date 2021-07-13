@@ -6,14 +6,14 @@ const ServiceCard:FunctionComponent<{service:IService}> = ({
 }) => {
     const createMarkup = () =>{
         return {
-            __html:about,
+            __html: about,
         }
     }
     return (
-        <div className="flex items-center p-2 space-x-4">
-            <Icon className="w-12 h-12 text-ming"/>
+        <div className="flex items-center p-2 space-x-4 dark:text-white ">
+            <Icon className="w-12 h-12 text-ming "/>
             <div>
-                <h4 className="text-ming">{title}</h4>
+                <h4 className="font-bold text-ming">{title}</h4>
                 <p dangerouslySetInnerHTML={createMarkup()}/>
             </div>
         </div>

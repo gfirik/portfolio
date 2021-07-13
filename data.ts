@@ -1,8 +1,9 @@
 import { IService, ISkill } from './type';
-import { FaAngular, FaLaptopCode, FaReact, FaServer } from "react-icons/fa";
+import { FaAngular, FaReact } from "react-icons/fa";
 import { HiAcademicCap, HiTranslate } from 'react-icons/hi';
 import { SiAngular, SiJavascript, SiPython, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
-import { MdLanguage } from 'react-icons/md';
+import { MdDevices, MdLanguage } from 'react-icons/md';
+import { GiArchiveResearch } from 'react-icons/gi';
 
 export const services:IService[] = [
     {
@@ -15,18 +16,18 @@ export const services:IService[] = [
         Icon: FaAngular,
         title: "Angular Development",
         about:
-          "I tend to use <b>Angular</b> framework to build my PWA applications as it's more convinient component-based comfort",
+          "I use <b>Angular</b> framework to build PWA applications as it's more convinient component-based comfort",
       },
       {
-        Icon: FaServer,
-        title: "Backend Development",
+        Icon: MdDevices,
+        title: "Responsive Web Design",
         about:
-            "I can handle database, server, api using <b>Node</b>(and <b>Express</b>) & <b>Python</b>",
+            "I can develop responsive web application using <b>SASS</b> and <b>Bootstrap</b> & <b>Tailwind CSS</b>",
       },
       {
-        Icon: FaLaptopCode,
+        Icon: GiArchiveResearch,
         title: "Full Time Learner",
-        about: "a daily learner of new techs, <b>freeCodeCamp</b> student, sophomore of <b>YouTube</b> university",
+        about: "a daily learner of new techs, <b>freeCodeCamp</b>, <b>Coursera</b> and <b>edX</b> student, doing master's at <b>YouTube</b> university",
       },
       {
         Icon: HiTranslate,
