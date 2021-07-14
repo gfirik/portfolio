@@ -14,36 +14,36 @@ const Sidebar = () => {
     }
 
     return (
-        <div className="flex flex-col p-5 text-center font-montserrat md:text-sm">
+        <div className="flex flex-col px-4 py-2 font-medium text-center font-montserrat md:text-sm">
             <div className="w-32 h-32 mx-auto rounded-full">
                 <Image 
                     src={profilePic} 
                     alt="avatar"
                 />
             </div>
-            <h2 className="my-4 text-3xl font-bold tracking-wider font-inconsolata">
+            <h2 className="my-3 text-3xl font-bold tracking-wider font-inconsolata">
                 <span className="text-ming">Firdavs </span>
                 Gafurjonov
             </h2>
-            <p className="flex justify-center w-full px-2 py-1 my-3 rounded-full font-inconsolata">
-                <code className="p-1 bg-white2 dark:text-black">#webDev</code>
+            <p className="flex justify-center w-full my-3 text-lg font-inconsolata">
+                <code className="px-2 py-1 bg-white2 dark:text-white dark:bg-black2">#webDev</code>
             </p>
             <a 
-                className="flex items-center justify-center px-2 py-1 my-3 text-white rounded-full bg-ming"
+                className="flex items-center justify-center px-2 py-1 my-2 text-white rounded-full bg-ming"
                 href="" 
                 download="CV_Firdavs_Gafurjonov"
             >
                 <GiTie className="w-6 h-6"/>Download Resume
             </a>
-            <div className="flex justify-around w-9/12 mx-auto my-5 transition duration-300 text-ming md:w-full">
+            <div className="flex justify-center w-9/12 mx-auto my-6 transition duration-300 text-ming md:w-full">
                 <a href="https://github.com/gfirik">
-                    <AiFillGithub className="w-8 h-8 cursor-pointer"/>
+                    <AiFillGithub className="w-10 h-10 mx-4 cursor-pointer"/>
                 </a>
                 <a href="https://www.linkedin.com/in/firdavs-gafurjonov/">
-                    <AiFillLinkedin className="w-8 h-8 cursor-pointer"/>
+                    <AiFillLinkedin className="w-10 h-10 mx-4 cursor-pointer"/>
                 </a>
             </div>
-            <div className="flex flex-col items-center w-full ">
+            <div className="flex flex-col items-center w-full my-4">
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation />
                     <span>Incheon, South Korea</span>

@@ -10,6 +10,8 @@ module.exports = {
       none: 'none',
       insetDark: 'inset 12px 12px 24px #2b2b2b, inset -12px -12px 24px #3b3b3b',
       inset: 'inset 12px 12px 24px #d1cfcf, inset -12px -12px 24px #ffffff',
+      md: '4px 4px 16px 8px #acacac, -8px -8px 16px -8px #e8e8e8',
+      darkMd: '8px 8px 16px 8px #acacac, -8px -8px 16px -8px #e8e8e8',
     },
 
     fontFamily: {
@@ -18,13 +20,11 @@ module.exports = {
      },
     extend: {
       colors: {
-        indigo: {
-          light: '#b3bcf5',
-          DEFAULT: '#5c6ac4',
-          dark: '#202e78',
-        },
         black: {
           DEFAULT: '#333333',
+        },
+        black2: {
+          DEFAULT: '#444444',
         },
         ming: {
           DEFAULT: '#387780',

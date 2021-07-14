@@ -7,16 +7,17 @@ const index = (
   ) => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
-      <h4 className="my-2 font-medium"><span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> <br/>
-        I am high passionate self-taught web developer focused on front end development 
-        with a great talent and creative experience in the field.<br/>
-        <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
+      <h4 className="my-2 font-medium">
+          <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
+            I am high passionate self-taught web developer focused on front end development 
+            with a great talent and creative experience in the field.
+          <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
       </h4>
       <div 
         className="flex-grow p-4 mt-5 bg-ming"
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem'}}
       >
-        <h5 className="my-2 tracking-wider text-white">Who I Am?</h5>
+        <h5 className="my-5 text-2xl tracking-wider text-white">Who I Am?</h5>
         <div className="grid gap-6 lg:grid-cols-2">
           { services.map((service)=>(
             <div 

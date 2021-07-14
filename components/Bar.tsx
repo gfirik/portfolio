@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react"
-import { ISkill } from "../type"
+import { ISkill } from "../types"
 
 const Bar:FunctionComponent<{
     data: ISkill
@@ -7,7 +7,7 @@ const Bar:FunctionComponent<{
     return (
         <div className="my-2 rounded-full bg-white2">
             <div className="flex items-center px-4 py-1 text-white rounded-full bg-ming"
-                style={{width: level}}
+                style={{width: '100%'}}
             >
                 <Icon className="mr-3" />
                 {name}
