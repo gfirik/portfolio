@@ -1,11 +1,15 @@
-import Bar from "../components/Bar"
-import { languages, programmingLanguages } from "../data"
+import Bar from "../components/Bar";
+import { languages, programmingLanguages } from "../data";
+import { motion } from "framer-motion";
+import { fadeInUp, routeAnimation } from "../animations";
 
 const resume = () => {
     return (
-        <div className="px-6 py-2">
+        <motion.div className="px-6 py-2"
+            variants={routeAnimation} initial="initial" animate="animate" exit="exit"
+        >
             <div className="grid gap-6 md:grid-cols-2">
-                <div>
+                <motion.div variants={fadeInUp} initial="initial" animate="animate">
                     <h4 className="my-3 text-2xl font-bold">Education</h4>
                     <div>
                         <h5 className="my-2 text-xl font-bold">Business Administration</h5>
@@ -14,8 +18,8 @@ const resume = () => {
                             I am currently pursuing my Bachelors degree in Business Administration from Inha University
                         </p>
                     </div>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div variants={fadeInUp} initial="initial" animate="animate">
                     <h4 className="my-3 text-2xl font-bold">Experience</h4>
                     <div>
                         <h5 className="my-2 text-xl font-bold">Freelance Web Developer</h5>
@@ -24,7 +28,7 @@ const resume = () => {
                             Developed several landing pages and web applications for small business companies located in my hometown Bukhara.
                         </p>
                     </div>
-                </div>
+                </motion.div>
             </div>
         
             <div className="grid gap-6 md:grid-cols-2">
@@ -46,7 +50,7 @@ const resume = () => {
                 </div>
             </div>
 
-        </div>
+        </motion.div>
     )
 }
 

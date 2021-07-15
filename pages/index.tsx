@@ -1,12 +1,16 @@
 //import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
+import { motion } from "framer-motion";
+import { fadeInUp, routeAnimation, stagger } from "../animations";
+import { NextPage } from "next";
 
-const index = (
-  // {services}
-  ) => {
+const About: NextPage = () => {
+
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <motion.div className="flex flex-col flex-grow px-6 pt-1"
+      variants={routeAnimation} initial="initial" animate="animate" exit="exit"
+    >
       <h4 className="my-2 font-medium">
           <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
             I am high passionate self-taught web developer focused on front end development 
@@ -18,22 +22,28 @@ const index = (
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem'}}
       >
         <h5 className="my-5 text-2xl tracking-wider text-white">Who I Am?</h5>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <motion.div 
+          className="grid gap-6 lg:grid-cols-2"
+          variants={stagger} 
+          initial="initial" 
+          animate="animate"
+        >
           { services.map((service)=>(
-            <div 
+            <motion.div 
+              variants={fadeInUp}
               key={service.title} 
               className="bg-white rounded-lg dark:bg-black lg:col-span-1 dark:shadow-insetDark shadow-inset"
             >
               <ServiceCard service={service}/>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </div>
-  )
-}
+    </motion.div>
+  );
+};
 
-export default index;
+export default About;
 
 // export const getServerSideProps = async (
 //   context:GetServerSidePropsContext

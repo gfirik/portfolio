@@ -51,12 +51,12 @@ const Sidebar = () => {
                 <p className="my-2">firdavs.gafurjonov@gmail.com</p>
             </div>
             <div className="flex flex-col items-center w-full">    
-                <a 
+                <button 
                     className="w-8/12 p-2 my-2 text-black transition duration-300 bg-white rounded-full shadow-sm dark:hover:bg-ming dark:bg-black dark:text-white hover:shadow-none dark:shadow-darkSm hover:bg-ming hover:text-white focus:outline-none hover:outline-none"    
-                    href="contact"
+                    onClick={() => window.open("mailto:firdavs.gafurjonov@gmail.com")}
                 >
                     Contact Me
-                </a>
+                </button>
                 <button 
                     className="w-8/12 p-2 my-2 text-black transition duration-300 bg-white rounded-full shadow-sm dark:hover:text-black dark:hover:bg-white dark:bg-black dark:text-white hover:shadow-none hover:bg-black hover:text-white focus:outline-none hover:outline-none dark:shadow-darkSm"
                     onClick={changeTheme}

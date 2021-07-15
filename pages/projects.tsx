@@ -3,11 +3,13 @@ import ProjectCard from "../components/ProjectCard"
 import ProjectsNavbar from "../components/ProjectsNavbar"
 import { useState } from "react"
 import { Category } from "../types"
+import { motion } from "framer-motion"
+import { fadeInUp, routeAnimation, stagger } from "../animations"
 
 const Projects = () => {
 
     const[projects, setProjects] = useState(projectsData);
-    const [active, setActive] = useState("all");
+    const[active, setActive] = useState("all");
     
     const handlerFilterCategory = (category: Category | 'all') => {
         if(category==='all'){
@@ -22,18 +24,32 @@ const Projects = () => {
     }
 
     return (
-        <div className="px-6 py-4 overflow-y-scroll" style={{height:'55vh'}}>
-            <ProjectsNavbar handlerFilterCategory={handlerFilterCategory}/>
+        <motion.div className="px-6 py-4 overflow-y-scroll" style={{height:'55vh'}}
+            variants={routeAnimation} initial="initial" animate="animate" exit="exit"
+        >
+            <ProjectsNavbar 
+                handlerFilterCategory={handlerFilterCategory}
+                active={active}
+            />
 
-            <div className="relative grid grid-cols-12 gap-4 my-3">
+            <motion.div
+                className="relative grid grid-cols-12 gap-4 my-3"
+                variants={stagger} 
+                initial="initial" 
+                animate="animate"
+            >
                 {projects.map((project) => (
-                    <div className="p-2 bg-white shadow-sm col-space-12 sm:col-span-6 lg:col-span-4 dark:bg-black2 dark:shadow-darkSm">
-                        <ProjectCard project={project} key={project.name} />
-                    </div>
+                    <motion.div 
+                        variants={fadeInUp}
+                        className="col-span-12 p-2 bg-white shadow-sm sm:col-span-6 lg:col-span-4 dark:bg-black2 dark:shadow-darkSm"
+                        key={project.name}
+                    >
+                        <ProjectCard project={project}  />
+                    </motion.div>
                 ))}
-            </div>
-        </div>
-    )
-}
+            </motion.div>
+        </motion.div>
+    );
+};
 
-export default Projects
+export default Projects;

@@ -47,32 +47,32 @@ export const programmingLanguages:ISkill[] = [
   {
     Icon: SiJavascript,
     name: 'JavaScript', 
-    level: '70%', 
+    level: '100%', 
   },
   {
     Icon: SiReact,
     name: 'React(&Next.js)',
-    level: '80%', 
+    level: '100%', 
   },
   {
     Icon: SiAngular,
     name: 'Angular',
-    level: '80%', 
+    level: '100%', 
   },
   {
     Icon: SiPython,
     name: 'Python',
-    level: '65%', 
+    level: '100%', 
   },
   {
     Icon: SiTypescript,
     name: 'TypeScript',
-    level: '60%', 
+    level: '100%', 
   },
   {
     Icon: SiTailwindcss,
-    name: 'HTML&CSS, Bootstrap, SASS, Tailwind',
-    level: '90%', 
+    name: 'Bootstrap&Tailwind',
+    level: '100%', 
   }
 ];
 
