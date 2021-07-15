@@ -53,11 +53,11 @@ const ProjectCard:FunctionComponent<{
                             />
                         </motion.div>
                         <motion.div className="flex justify-center my-4 space-x-3" variants={fadeInUp}>
-                            <a target="_blank" href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg text-white bg-ming">
+                            <a target="_blank" rel="noopener noreferrer" href={github_url} className="flex items-center px-4 py-2 space-x-3 text-lg text-white bg-ming">
                                 <AiFillGithub className="w-8 h-8"/>
                                 <span>Github</span>
                             </a>
-                            <a target="_blank" href={deployed_url} className="flex items-center px-4 py-2 space-x-3 text-lg text-white bg-ming">
+                            <a target="_blank" rel="noopener noreferrer" href={deployed_url} className="flex items-center px-4 py-2 space-x-3 text-lg text-white bg-ming">
                                 <AiFillProject className="w-8 h-8"/>
                                 <span>Project</span>
                             </a>

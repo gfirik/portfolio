@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
+import Link from 'next/link';
 
 const Sidebar = () => {
 
@@ -36,10 +37,10 @@ const Sidebar = () => {
                 <GiTie className="w-6 h-6"/>Download Resume
             </a>
             <div className="flex justify-center w-9/12 mx-auto my-6 transition duration-300 text-ming md:w-full">
-                <a href="https://github.com/gfirik">
+                <a target="_blank" href="https://github.com/gfirik" rel="noopener noreferrer">
                     <AiFillGithub className="w-10 h-10 mx-4 cursor-pointer"/>
                 </a>
-                <a href="https://www.linkedin.com/in/firdavs-gafurjonov/">
+                <a target="_blank" href="https://www.linkedin.com/in/firdavs-gafurjonov/" rel="noopener noreferrer">
                     <AiFillLinkedin className="w-10 h-10 mx-4 cursor-pointer"/>
                 </a>
             </div>
