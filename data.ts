@@ -178,6 +178,6 @@ export const projects:IProject[] = [
     deployed_url: 'https://ng-todo-list-app.netlify.app/',
     github_url: 'https://github.com/gfirik/ng-todo-app',
     category: ['angular'],
-    key_techs: ['JavaScript', 'SCSS']
+    key_techs: ['TypeScript', 'SCSS']
   },
 ];
