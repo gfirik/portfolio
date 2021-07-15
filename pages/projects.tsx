@@ -5,6 +5,7 @@ import { useState } from "react"
 import { Category } from "../types"
 import { motion } from "framer-motion"
 import { fadeInUp, routeAnimation, stagger } from "../animations"
+import Head from "next/head";
 
 const Projects = () => {
 
@@ -28,6 +29,9 @@ const Projects = () => {
         <motion.div className="px-6 py-4 overflow-y-scroll" style={{height:'55vh'}}
             variants={routeAnimation} initial="initial" animate="animate" exit="exit"
         >
+            <Head>
+                <title>Web Developer | Project | Firdavs</title>
+            </Head>
             <ProjectsNavbar 
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}

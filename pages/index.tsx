@@ -4,6 +4,7 @@ import { services } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 import { NextPage } from "next";
+import Head from 'next/head'
 
 const About: NextPage = () => {
 
@@ -11,6 +12,9 @@ const About: NextPage = () => {
     <motion.div className="flex flex-col flex-grow px-6 pt-1"
       variants={routeAnimation} initial="initial" animate="animate" exit="exit"
     >
+      <Head>
+        <title>Web Developer | Portfolio | Firdavs</title>
+      </Head>
       <h4 className="my-2 font-medium">
           <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
             I am high passionate self-taught web developer focused on front end development 
