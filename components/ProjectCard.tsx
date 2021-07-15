@@ -8,6 +8,8 @@ import { fadeInUp, stagger } from "../animations";
 
 const ProjectCard:FunctionComponent<{
     project:IProject;
+    showDetail: null|number,
+    setShowDetail:(id:null|number) => void
 }> = ({
     project: {
         name, 
@@ -16,11 +18,11 @@ const ProjectCard:FunctionComponent<{
         deployed_url,
         description,
         github_url,
-        key_techs
-    }
+        key_techs,
+        id,
+    },
+    showDetail, setShowDetail
 }) => {
-
-    const [showDetail, setShowDetail] = useState(false);
 
     return (
         <div>
@@ -28,18 +30,19 @@ const ProjectCard:FunctionComponent<{
                 src={image_path} 
                 alt={name} 
                 className="cursor-pointer" 
-                onClick={()=>setShowDetail(true)}
+                onClick={()=>setShowDetail(id)}
                 layout='responsive'
                 height='200'
                 width='400'
             />
             <p className="my-2 text-center">{name}</p>
  
-            {showDetail && (
-                <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-4 text-black bg-white shadow rounded-xl dark:shadow-dark md:grid-cols-2 gap-x-12 dark:text-white dark:bg-black">
+            {showDetail === id && (
+                <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-4 text-black bg-white shadow md:p-10 rounded-xl dark:shadow-dark md:grid-cols-2 gap-x-12 dark:text-white dark:bg-black">
                     <motion.div variants={stagger} initial="initial" animate="animate">
                         <motion.div
                             variants={fadeInUp}
+                            className="border-4 border-ming"
                         >
                             <Image
                                 src={image_path}
@@ -71,7 +74,8 @@ const ProjectCard:FunctionComponent<{
                             ))}
                         </motion.div>
                     </motion.div>
-                    <button className="absolute p-1 bg-white rounded-full shadow-sm dark:shadow-darkSm top-3 right-3 focus:outline-none dark:bg-black2" onClick={()=>setShowDetail(false)}>
+                    <button className="absolute p-1 bg-white rounded-full shadow-sm dark:shadow-darkSm top-3 right-3 focus:outline-none dark:bg-black2" 
+                        onClick={()=>setShowDetail(null)}>
                         <MdClose size={30} />            
                     </button>           
                 </div>
