@@ -33,7 +33,7 @@ export const services:IService[] = [
         Icon: HiTranslate,
         title: "Translator&Interpreter",
         about:
-          "stunning translator and interpreter in <b>Korean</b> and <b>English</b> with one year experience in this industry.",
+          "experienced translator and interpreter in <b>Korean</b> and <b>English</b> with one year experience in this industry.",
       },
       {
         Icon: GiArchiveResearch,
@@ -178,6 +178,6 @@ export const projects:IProject[] = [
     deployed_url: 'https://ng-todo-list-app.netlify.app/',
     github_url: 'https://github.com/gfirik/ng-todo-app',
     category: ['angular'],
-    key_techs: ['TypeScript', 'SCSS']
+    key_techs: ['Angular', 'TypeScript', 'SCSS']
   },
 ];
