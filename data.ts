@@ -101,7 +101,17 @@ export const languages:ISkill[] = [
 
 export const projects:IProject[] = [
   {
-    id: 1,
+    id: 9,
+    name: 'Share Ideas | CRUD App', 
+    description: 'Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform CRUD operations.',
+    image_path: '/images/crud-ideas.png',
+    deployed_url: 'https://share-ideas.vercel.app/',
+    github_url: 'https://github.com/gfirik/crud-next-supabase',
+    category: ['react'],
+    key_techs: ['Next.js','Supabase', 'React', 'Tailwind']
+  },
+  {
+    id: 8,
     name: 'Quiz App with Trivia API', 
     description: 'In this app you will be able to test your basic knowledge by answering randomly selected questions.',
     image_path: '/images/react-ts-quiz.png',
@@ -111,7 +121,7 @@ export const projects:IProject[] = [
     key_techs: ['React','TypeScript', 'Styled Components']
   },
   {
-    id: 2,
+    id: 7,
     name: 'Video Game Database Application', 
     description: 'This app allows you to explore more than 350000+ video games. This app was built using Rapid API.',
     image_path: '/images/ng-game-db.png',
@@ -121,7 +131,7 @@ export const projects:IProject[] = [
     key_techs: ['Angular','TypeScript', 'SCSS']
   },
   {
-    id: 3,
+    id: 6,
     name: 'Web Page of Eduvive', 
     description: 'This webpage was created for Eduvive Education Center.',
     image_path: '/images/eduvive.png',
@@ -131,7 +141,7 @@ export const projects:IProject[] = [
     key_techs: ['JavaScript','SCSS', 'Tilt.js', 'Swiper.js'],
   },
   {
-    id: 4,
+    id: 5,
     name: 'Tic Tac Toe Game', 
     description: 'Simple Tic Tac Toe Game built in Angular',
     image_path: '/images/react-ts-quiz.png',
@@ -141,7 +151,7 @@ export const projects:IProject[] = [
     key_techs: ['Angular','TypeScript', 'SCSS']
   },
   {
-    id: 5,
+    id: 4,
     name: 'Twitter Clone', 
     description: 'This app forces you to give up your real twitter app and start to use this app with its main functionalities',
     image_path: '/images/react-ts-quiz.png',
@@ -151,7 +161,7 @@ export const projects:IProject[] = [
     key_techs: ['React','JavaScript']
   },
   {
-    id:6,
+    id: 3,
     name: 'Countdown App', 
     description: 'In this app you can see how much time left untill the time you select',
     image_path: '/images/countdown-app.png',
@@ -161,7 +171,7 @@ export const projects:IProject[] = [
     key_techs: ['JavaScript', 'SCSS']
   },
   {
-    id: 7,
+    id: 2,
     name: 'Simple Quiz App', 
     description: 'I have built the app to improve my JavaScript skills and it`s beginner friendly project that can be learnt from code itself:)',
     image_path: '/images/js-quiz.png',
@@ -171,7 +181,7 @@ export const projects:IProject[] = [
     key_techs: ['JavaScript', 'SCSS']
   },
   {
-    id: 8,
+    id: 1,
     name: 'Todo List App', 
     description: 'Simple todo list app where you can save your todos and remove them as your daily reminder',
     image_path: '/images/ng-todo-list.png',
