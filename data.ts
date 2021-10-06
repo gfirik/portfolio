@@ -100,6 +100,7 @@ export const languages:ISkill[] = [
 ];
 
 export const projects:IProject[] = [
+  
   {
     id: 9,
     name: 'Share Ideas | CRUD App', 
@@ -142,13 +143,13 @@ export const projects:IProject[] = [
   },
   {
     id: 5,
-    name: 'Tic Tac Toe Game', 
-    description: 'Simple Tic Tac Toe Game built in Angular',
-    image_path: '/images/react-ts-quiz.png',
-    deployed_url: 'https://quiz-react-ts.netlify.app/',
-    github_url: 'https://github.com/gfirik/quiz-react-ts',
-    category: ['angular'],
-    key_techs: ['Angular','TypeScript', 'SCSS']
+    name: 'Memory Card Game App', 
+    description: 'Simple memory card game.',
+    image_path: '/images/memory-game.png',
+    deployed_url: 'https://memory-card-game-in-js.netlify.app/',
+    github_url: 'https://github.com/gfirik/memory-game',
+    category: ['vanilla js'],
+    key_techs: ['JavaScript', 'SCSS']
   },
   {
     id: 4,

@@ -31,10 +31,10 @@ const Sidebar = () => {
             </p>
             <a 
                 className="flex items-center justify-center px-2 py-1 my-2 text-white rounded-full bg-ming"
-                href="./assets/Firdavs's Resume.pdf" 
-                download="Firdavs's Resume.pdf"
+                href="./assets/Firdavs_CV.pdf" 
+                download="Firdavs_CV.pdf"
             >
-                <GiTie className="w-6 h-6"/>Download Resume
+                <GiTie className="w-6 h-6"/>Download CV
             </a>
             <div className="flex justify-center w-9/12 mx-auto my-6 transition duration-300 text-ming md:w-full">
                 <a target="_blank" href="https://github.com/gfirik" rel="noopener noreferrer">
