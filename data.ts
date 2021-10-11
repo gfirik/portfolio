@@ -153,14 +153,15 @@ export const projects:IProject[] = [
   },
   {
     id: 4,
-    name: 'Twitter Clone', 
-    description: 'This app forces you to give up your real twitter app and start to use this app with its main functionalities',
-    image_path: '/images/react-ts-quiz.png',
-    deployed_url: 'https://quiz-react-ts.netlify.app/',
-    github_url: 'https://github.com/gfirik/quiz-react-ts',
-    category: ['react'],
-    key_techs: ['React','JavaScript']
+    name: 'Connect Four Game', 
+    description: 'Connect Four is a two-player connection board game, in which the players choose a color and then take turns dropping colored discs into a seven-column, six-row vertically suspended grid.',
+    image_path: '/images/connect-four.png',
+    deployed_url: 'https://connect-four-game-js.netlify.app/',
+    github_url: 'https://github.com/gfirik/connect-four-game',
+    category: ['vanilla js'],
+    key_techs: ['JavaScript', 'SCSS']
   },
+  
   {
     id: 3,
     name: 'Countdown App', 
@@ -173,13 +174,13 @@ export const projects:IProject[] = [
   },
   {
     id: 2,
-    name: 'Simple Quiz App', 
-    description: 'I have built the app to improve my JavaScript skills and it`s beginner friendly project that can be learnt from code itself:)',
-    image_path: '/images/js-quiz.png',
-    deployed_url: 'https://gfirik.github.io/quiz-app/',
-    github_url: 'https://github.com/gfirik/quiz-app',
-    category: ['vanilla js'],
-    key_techs: ['JavaScript', 'SCSS']
+    name: 'Twitter Clone', 
+    description: 'This app forces you to give up your real twitter app and start to use this app with its main functionalities',
+    image_path: '/images/react-ts-quiz.png',
+    deployed_url: 'https://quiz-react-ts.netlify.app/',
+    github_url: 'https://github.com/gfirik/quiz-react-ts',
+    category: ['react'],
+    key_techs: ['React','JavaScript']
   },
   {
     id: 1,
