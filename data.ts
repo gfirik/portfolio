@@ -102,7 +102,7 @@ export const languages:ISkill[] = [
 export const projects:IProject[] = [
   
   {
-    id: 9,
+    id: 10,
     name: 'Share Ideas | CRUD App', 
     description: 'Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform CRUD operations.',
     image_path: '/images/crud-ideas.png',
@@ -112,7 +112,7 @@ export const projects:IProject[] = [
     key_techs: ['Next.js','Supabase', 'React', 'Tailwind']
   },
   {
-    id: 8,
+    id: 9,
     name: 'Quiz App with Trivia API', 
     description: 'In this app you will be able to test your basic knowledge by answering randomly selected questions.',
     image_path: '/images/react-ts-quiz.png',
@@ -122,7 +122,7 @@ export const projects:IProject[] = [
     key_techs: ['React','TypeScript', 'Styled Components']
   },
   {
-    id: 7,
+    id: 8,
     name: 'Video Game Database Application', 
     description: 'This app allows you to explore more than 350000+ video games. This app was built using Rapid API.',
     image_path: '/images/ng-game-db.png',
@@ -130,6 +130,16 @@ export const projects:IProject[] = [
     github_url: 'https://github.com/gfirik/ng-game-db',
     category: ['angular'],
     key_techs: ['Angular','TypeScript', 'SCSS']
+  },
+  {
+    id: 7,
+    name: 'Snake Game', 
+    description: 'Old snake game that we used to play in Nokia 3310',
+    image_path: '/images/snake-game.png',
+    deployed_url: 'https://nokia-snake-game-js.netlify.app/',
+    github_url: 'https://github.com/gfirik/snake-game-js',
+    category: ['vanilla js'],
+    key_techs: ['JavaScript', 'SCSS']
   },
   {
     id: 6,
