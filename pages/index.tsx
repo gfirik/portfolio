@@ -1,4 +1,3 @@
-//import { GetServerSidePropsContext, GetStaticPropsContext } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
@@ -13,12 +12,16 @@ const About: NextPage = () => {
       variants={routeAnimation} initial="initial" animate="animate" exit="exit"
     >
       <Head>
-        <title>Web Developer | Portfolio | Firdavs</title>
+        <link rel="icon" href="/iconLogo.png" />
+        <title>Firdavs Gafurjonov | Portfolio | Front End Dev | Full Stack Dev</title>
       </Head>
       <h4 className="my-2 font-medium">
           <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
-            I am high passionate self-taught web developer focused on front end development 
-            with a great talent and creative experience in the field.
+            I am Full Stack Developer with a passion for building web applications.
+            I am focused on the front end and I am constantly learning new technologies.
+            I am a self-taught developer and I am always looking for new ways to improve my skills.
+          <span className="font-mono text-xl font-extrabold text-ming">&lt;/p&gt;</span>
+      
           <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
       </h4>
       <div 
@@ -48,37 +51,3 @@ const About: NextPage = () => {
 };
 
 export default About;
-
-// export const getServerSideProps = async (
-//   context:GetServerSidePropsContext
-// ) => {
-  
-//   const res = await fetch('http://localhost:3000/api/services');
-//   const data = await res.json();
-
-//   console.log('SERVER', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-
-//     }
-//   }
-// }
-
-// export const getStaticProps = async (
-//   context: GetStaticPropsContext
-// ) => {
-  
-//   const res = await fetch('http://localhost:3000/api/services');
-//   const data = await res.json();
-
-//   console.log('SERVER', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-
-//     }
-//   }
-// }

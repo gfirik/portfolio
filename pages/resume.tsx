@@ -10,7 +10,8 @@ const resume = () => {
             variants={routeAnimation} initial="initial" animate="animate" exit="exit"
         >
             <Head>
-                <title>Web Developer | Resume | Firdavs</title>
+                <link rel="icon" href="/iconLogo.png" />
+                <title>Resume | Firdavs | Portfolio</title>
             </Head>
             <div className="grid gap-6 md:grid-cols-2">
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -27,7 +28,7 @@ const resume = () => {
                     <h4 className="my-3 text-2xl font-bold">Experience</h4>
                     <div>
                         <h5 className="my-2 text-xl font-bold">Freelance Web Developer</h5>
-                        <p className="font-semibold">esefGroup(since December, 2020)</p>
+                        <p className="font-semibold">esefGroup(December, 2020 ~ July, 2021)</p>
                         <p className="my-3">
                             Developed several landing pages and web applications for small business companies located in my hometown Bukhara.
                         </p>

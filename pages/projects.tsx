@@ -30,7 +30,8 @@ const Projects = () => {
             variants={routeAnimation} initial="initial" animate="animate" exit="exit"
         >
             <Head>
-                <title>Web Developer | Project | Firdavs</title>
+                <link rel="icon" href="/iconLogo.png" />
+                <title>Projects | Firdavs | Portfolio</title>
             </Head>
             <ProjectsNavbar 
                 handlerFilterCategory={handlerFilterCategory}
