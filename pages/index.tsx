@@ -20,8 +20,6 @@ const About: NextPage = () => {
             I am Full Stack Developer with a passion for building web applications.
             I am focused on the front end and I am constantly learning new technologies.
             I am a self-taught developer and I am always looking for new ways to improve my skills.
-          <span className="font-mono text-xl font-extrabold text-ming">&lt;/p&gt;</span>
-      
           <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
       </h4>
       <div 

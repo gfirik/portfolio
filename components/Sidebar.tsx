@@ -21,7 +21,7 @@ export const Sidebar = () => {
                 Gafurjonov
             </h2>
             <p className="flex justify-center w-full my-3 text-lg font-inconsolata">
-                <code className="px-2 py-1 bg-white2 dark:text-white dark:bg-black2">#frontEndDev #fullStackDev</code>
+                <code className="px-2 py-1 bg-white2 dark:text-white dark:bg-black2">#frontEndDev</code>
             </p>
             <a 
                 className="flex items-center justify-center px-2 py-1 my-2 text-white rounded-full bg-ming"
