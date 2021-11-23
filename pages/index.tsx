@@ -16,11 +16,10 @@ const About: NextPage = () => {
         <title>Firdavs Gafurjonov | Portfolio | Front End Dev | Full Stack Dev</title>
       </Head>
       <h4 className="my-2 font-medium">
-          <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
-            I am <strong>Front End Developer</strong> with a passion for building web applications.
-            I am focused on the front end and I am constantly learning new technologies.
+          <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt; &nbsp;</span> 
+            I am <strong>Front End Developer</strong> with a passion for building web applications and I am constantly learning new technologies.
             I am a self-taught developer and I am always looking for new ways to improve my skills.
-          <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
+          <span className="text-xl font-extrabold text-ming">&nbsp;&lt;/p&gt;</span>
       </h4>
       <div 
         className="flex-grow p-4 mt-5 bg-ming"
