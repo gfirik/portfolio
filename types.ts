@@ -23,4 +23,4 @@ export interface IProject {
     key_techs: string[],
 };
 
-export type Category = 'react'|'angular'|'vanilla js';
+export type Category = 'react'|'angular'|'vanilla js'|'vue';

@@ -24,6 +24,7 @@ const ProjectsNavbar:FunctionComponent<{
             <NavItem value='all' {...props}/>
             <NavItem value='react' {...props}/>
             <NavItem value='angular' {...props}/>
+            <NavItem value='vue' {...props}/>
             <NavItem value='vanilla js' {...props}/>
         </div>
     );
