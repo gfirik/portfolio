@@ -113,7 +113,7 @@ export const languages:ISkill[] = [
 
 export const projects:IProject[] = [
   {
-    id: 11,
+    id: 12,
     name: 'Share Ideas | CRUD App', 
     description: 'Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform CRUD operations.',
     image_path: '/images/crud-ideas.png',
@@ -123,7 +123,7 @@ export const projects:IProject[] = [
     key_techs: ['Next.js','Supabase', 'React', 'Tailwind']
   },
   {
-    id: 10,
+    id: 11,
     name: 'Quiz App with Trivia API', 
     description: 'In this app you will be able to test your basic knowledge by answering randomly selected questions.',
     image_path: '/images/react-ts-quiz.png',
@@ -133,7 +133,7 @@ export const projects:IProject[] = [
     key_techs: ['React','TypeScript', 'Styled Components']
   },
   {
-    id: 9,
+    id: 10,
     name: 'Video Game Database Application', 
     description: 'This app allows you to explore more than 350000+ video games. This app was built using Rapid API.',
     image_path: '/images/ng-game-db.png',
@@ -141,6 +141,16 @@ export const projects:IProject[] = [
     github_url: 'https://github.com/gfirik/ng-game-db',
     category: ['angular'],
     key_techs: ['Angular','TypeScript', 'SCSS']
+  },
+  {
+    id: 9,
+    name: 'Todo App in Nuxt.js', 
+    description: 'This app allows you to create a list of tasks and delete them. This app is developed using Nuxt.js, Vuetify and Vuex.',
+    image_path: '/images/nuxt-todo.png',
+    deployed_url: 'https://nuxt-vuex-todo-app.netlify.app/',
+    github_url: 'https://github.com/gfirik/nuxt-vuex-todo-app',
+    category: ['vue'],
+    key_techs: ['Nuxt.js','Vuex', 'Vuetify', 'JavaScript']
   },
   {
     id: 8,
