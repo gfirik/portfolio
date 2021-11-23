@@ -72,11 +72,6 @@ export const programmingLanguages:ISkill[] = [
     level: '100%', 
   },
   {
-    Icon: SiPython,
-    name: 'Python',
-    level: '100%', 
-  },
-  {
     Icon: SiTypescript,
     name: 'TypeScript',
     level: '100%', 

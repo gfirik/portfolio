@@ -17,7 +17,7 @@ const About: NextPage = () => {
       </Head>
       <h4 className="my-2 font-medium">
           <span className="font-mono text-xl font-extrabold text-ming">&lt;p&gt;</span> 
-            I am Full Stack Developer with a passion for building web applications.
+            I am <strong>Front End Developer</strong> with a passion for building web applications.
             I am focused on the front end and I am constantly learning new technologies.
             I am a self-taught developer and I am always looking for new ways to improve my skills.
           <span className="text-xl font-extrabold text-ming">&lt;/p&gt;</span>
@@ -26,7 +26,7 @@ const About: NextPage = () => {
         className="flex-grow p-4 mt-5 bg-ming"
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem'}}
       >
-        <h5 className="my-5 text-2xl tracking-wider text-white">Who I Am?</h5>
+        <h5 className="my-5 text-2xl tracking-wider text-white">What I do?</h5>
         <motion.div 
           className="grid gap-6 lg:grid-cols-2"
           variants={stagger} 

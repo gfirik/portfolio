@@ -14,7 +14,7 @@ export const Sidebar = () => {
     return (
         <div className="flex flex-col px-4 py-2 font-medium text-center font-montserrat md:text-sm">
             <div className="w-32 h-32 mx-auto rounded-full">
-                <h4 className="font-medium text-8xl text-ming dark:text-white dark:bg-black">FG</h4>
+                <h4 className="font-medium text-8xl text-ming dark:bg-black">FG</h4>
             </div>
             <h2 className="my-3 text-3xl font-bold tracking-wider font-inconsolata">
                 <span className="text-ming">Firdavs </span>
