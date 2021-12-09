@@ -108,8 +108,8 @@ export const languages:ISkill[] = [
 
 export const projects:IProject[] = [
   {
-    id: 12,
-    name: 'Share Ideas | CRUD App', 
+    id: 7,
+    name: 'Share Ideas | Social Media Platform | CRUD App', 
     description: 'Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform CRUD operations.',
     image_path: '/images/crud-ideas.png',
     deployed_url: 'https://share-ideas.vercel.app/',
@@ -118,8 +118,8 @@ export const projects:IProject[] = [
     key_techs: ['Next.js','Supabase', 'React', 'Tailwind']
   },
   {
-    id: 11,
-    name: 'Quiz App with Trivia API', 
+    id: 6,
+    name: 'Quiz App via Trivia API', 
     description: 'In this app you will be able to test your basic knowledge by answering randomly selected questions.',
     image_path: '/images/react-ts-quiz.png',
     deployed_url: 'https://quiz-react-ts.netlify.app/',
@@ -128,8 +128,8 @@ export const projects:IProject[] = [
     key_techs: ['React','TypeScript', 'Styled Components']
   },
   {
-    id: 10,
-    name: 'Video Game Database Application', 
+    id: 5,
+    name: 'Video Game Platform Application', 
     description: 'This app allows you to explore more than 350000+ video games. This app was built using Rapid API.',
     image_path: '/images/ng-game-db.png',
     deployed_url: 'https://ng-game-db.netlify.app/',
@@ -138,7 +138,7 @@ export const projects:IProject[] = [
     key_techs: ['Angular','TypeScript', 'SCSS']
   },
   {
-    id: 9,
+    id: 4,
     name: 'Todo App in Nuxt.js', 
     description: 'This app allows you to create a list of tasks and delete them. This app is developed using Nuxt.js, Vuetify and Vuex.',
     image_path: '/images/nuxt-todo.png',
@@ -148,8 +148,8 @@ export const projects:IProject[] = [
     key_techs: ['Nuxt.js','Vuex', 'Vuetify', 'JavaScript']
   },
   {
-    id: 8,
-    name: 'Catstronauts App', 
+    id: 3,
+    name: 'Catstronauts App with Apollo GraphQL | Full Stack App', 
     description: 'Full Stack app developed with Apollo GraphQL team while taking their online course.',
     image_path: '/images/catstronauts.png',
     deployed_url: 'https://client-cats-tronauts.herokuapp.com/',
@@ -158,7 +158,7 @@ export const projects:IProject[] = [
     key_techs: ['React', 'GraphQL', 'Node']
   },
   {
-    id: 7,
+    id: 2,
     name: 'Snake Game', 
     description: 'Old snake game that we used to play in Nokia 3310',
     image_path: '/images/snake-game.png',
@@ -168,7 +168,7 @@ export const projects:IProject[] = [
     key_techs: ['JavaScript', 'SCSS']
   },
   {
-    id: 6,
+    id: 1,
     name: 'Web Page of Eduvive', 
     description: 'This webpage was created for Eduvive Education Center.',
     image_path: '/images/eduvive.png',
@@ -176,56 +176,5 @@ export const projects:IProject[] = [
     github_url: 'https://github.com/gfirik/eduvive',
     category: ['vanilla js'],
     key_techs: ['JavaScript','SCSS', 'Tilt.js', 'Swiper.js'],
-  },
-  {
-    id: 5,
-    name: 'Memory Card Game App', 
-    description: 'Simple memory card game.',
-    image_path: '/images/memory-game.png',
-    deployed_url: 'https://memory-card-game-in-js.netlify.app/',
-    github_url: 'https://github.com/gfirik/memory-game',
-    category: ['vanilla js'],
-    key_techs: ['JavaScript', 'SCSS']
-  },
-  {
-    id: 4,
-    name: 'Connect Four Game', 
-    description: 'Connect Four is a two-player connection board game, in which the players choose a color and then take turns dropping colored discs into a seven-column, six-row vertically suspended grid.',
-    image_path: '/images/connect-four.png',
-    deployed_url: 'https://connect-four-game-js.netlify.app/',
-    github_url: 'https://github.com/gfirik/connect-four-game',
-    category: ['vanilla js'],
-    key_techs: ['JavaScript', 'SCSS']
-  },
-  
-  {
-    id: 3,
-    name: 'Countdown App', 
-    description: 'In this app you can see how much time left untill the time you select',
-    image_path: '/images/countdown-app.png',
-    deployed_url: 'https://gfirik.github.io/countdown-app/',
-    github_url: 'https://github.com/gfirik/countdown-app',
-    category: ['vanilla js'],
-    key_techs: ['JavaScript', 'SCSS']
-  },
-  {
-    id: 2,
-    name: 'Twitter Clone', 
-    description: 'This app forces you to give up your real twitter app and start to use this app with its main functionalities',
-    image_path: '/images/react-ts-quiz.png',
-    deployed_url: 'https://quiz-react-ts.netlify.app/',
-    github_url: 'https://github.com/gfirik/quiz-react-ts',
-    category: ['react'],
-    key_techs: ['React','JavaScript']
-  },
-  {
-    id: 1,
-    name: 'Todo List App', 
-    description: 'Simple todo list app where you can save your todos and remove them as your daily reminder',
-    image_path: '/images/ng-todo-list.png',
-    deployed_url: 'https://ng-todo-list-app.netlify.app/',
-    github_url: 'https://github.com/gfirik/ng-todo-app',
-    category: ['angular'],
-    key_techs: ['Angular', 'TypeScript', 'SCSS']
   },
 ];
