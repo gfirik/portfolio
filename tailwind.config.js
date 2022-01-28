@@ -27,7 +27,7 @@ module.exports = {
           DEFAULT: '#444444',
         },
         ming: {
-          DEFAULT: '#BA5C12',//387780 ming, 
+          DEFAULT: '#387780', //'#BA5C12',  ming,
         },
         electric_blue: {
           DEFAULT: '#64E9EE'

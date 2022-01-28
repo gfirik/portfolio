@@ -108,6 +108,17 @@ export const languages:ISkill[] = [
 
 export const projects:IProject[] = [
   {
+    id: 8,
+    name: 'Amazon.com Clone Project | E-Commerce App',
+    description: 'Amazon Clone Project with Google Authentication and Stripe Payment Process. ' +
+        'Users can sign in with their Google Account, add products to their basket, and proceed the payment',
+    image_path: '/images/amazonclone.png',
+    deployed_url: 'https://amazonclonewebsite.netlify.app/',
+    github_url: 'https://github.com/gfirik/amazon-clone',
+    category: ['react'],
+    key_techs: ['Next.js','Redux','Firebase','Tailwind','Stripe']
+  },
+  {
     id: 7,
     name: 'Share Ideas | Social Media Platform | CRUD App', 
     description: 'Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform CRUD operations.',
