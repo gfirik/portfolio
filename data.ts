@@ -130,6 +130,16 @@ export const projects:IProject[] = [
   },
   {
     id: 6,
+    name: 'Kanban Board App', 
+    description: 'Task manager app that you can create, edit, and delete tasks. Tasks will be saved in your browser. This app was built in Vanilla JavaScript.',
+    image_path: '/images/kanban.png',
+    deployed_url: 'https://kanban-project.netlify.app/',
+    github_url: 'https://github.com/gfirik/kanban-board',
+    category: ['vanilla js'],
+    key_techs: ['JavaScript', 'SCSS']
+  },
+  {
+    id: 5,
     name: 'Quiz App via Trivia API', 
     description: 'In this app you will be able to test your basic knowledge by answering randomly selected questions.',
     image_path: '/images/react-ts-quiz.png',
@@ -139,7 +149,7 @@ export const projects:IProject[] = [
     key_techs: ['React','TypeScript', 'Styled Components']
   },
   {
-    id: 5,
+    id: 4,
     name: 'Video Game Platform Application', 
     description: 'This app allows you to explore more than 350000+ video games. This app was built using Rapid API.',
     image_path: '/images/ng-game-db.png',
@@ -149,7 +159,7 @@ export const projects:IProject[] = [
     key_techs: ['Angular','TypeScript', 'SCSS']
   },
   {
-    id: 4,
+    id: 3,
     name: 'Todo App in Nuxt.js', 
     description: 'This app allows you to create a list of tasks and delete them. This app is developed using Nuxt.js, Vuetify and Vuex.',
     image_path: '/images/nuxt-todo.png',
@@ -157,16 +167,6 @@ export const projects:IProject[] = [
     github_url: 'https://github.com/gfirik/nuxt-vuex-todo-app',
     category: ['vue'],
     key_techs: ['Nuxt.js','Vuex', 'Vuetify', 'JavaScript']
-  },
-  {
-    id: 3,
-    name: 'Catstronauts App with Apollo GraphQL | Full Stack App', 
-    description: 'Full Stack app developed with Apollo GraphQL team while taking their online course.',
-    image_path: '/images/catstronauts.png',
-    deployed_url: 'https://client-cats-tronauts.herokuapp.com/',
-    github_url: 'https://github.com/gfirik/odyssey-lift-off-part5-client',
-    category: ['react'],
-    key_techs: ['React', 'GraphQL', 'Node']
   },
   {
     id: 2,
