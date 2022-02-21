@@ -1,7 +1,7 @@
 import { IProject, IService, ISkill } from './types';
 import { FaAngular, FaReact, FaVuejs } from "react-icons/fa";
 import { HiAcademicCap } from 'react-icons/hi';
-import { SiAngular, SiJavascript, SiPython, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiAngular, SiJavascript, SiRedux, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { MdDevices, MdLanguage } from 'react-icons/md';
 import { GiArchiveResearch } from 'react-icons/gi';
 import { GrGraphQl } from 'react-icons/gr';
@@ -19,7 +19,6 @@ export const services:IService[] = [
         about:
           "I use <b>Angular</b> and <b>Vue.js</b> frameworks to build PWA, SPA and user interfaces by utilizing their awesome built-in functions and capabilities.",
       },
-      
       {
         Icon: GrGraphQl,
         title: "GraphQL Development",
@@ -55,6 +54,11 @@ export const programmingLanguages:ISkill[] = [
     Icon: SiReact,
     name: 'React',
     level: '100%', 
+  },
+  {
+    Icon: SiRedux,
+    name: 'Redux',
+    level: '100%',
   },
   {
     Icon: SiAngular,
