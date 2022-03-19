@@ -1,7 +1,7 @@
 import { IProject, IService, ISkill } from './types';
 import { FaAngular, FaReact, FaVuejs } from "react-icons/fa";
 import { HiAcademicCap } from 'react-icons/hi';
-import { SiAngular, SiJavascript, SiRedux, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiHtml5, SiNextDotJs, SiJavascript, SiRedux, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { MdDevices, MdLanguage } from 'react-icons/md';
 import { GiArchiveResearch } from 'react-icons/gi';
 import { GrGraphQl } from 'react-icons/gr';
@@ -11,7 +11,7 @@ export const services:IService[] = [
         Icon: FaReact,
         title: "React Development",
         about:
-          "I can build a beautiful, scalable and responsive SPAs and mobile apps using <b>React.js</b> and <b>React Native</b>. And I build full stack apps with React based frameworks <b>Next.js</b> and <b>Blitz.js</b>.",
+          "I can build a beautiful, scalable and responsive SPAs and PWAs using <b>React</b> and <b>Redux</b>. And I build full stack apps with React based frameworks <b>Next.js</b> and <b>Remix.js</b>.",
       },
       {
         Icon: FaAngular,
@@ -40,7 +40,7 @@ export const services:IService[] = [
         Icon: GiArchiveResearch,
         title: "loading...",
         about:
-          "want to try <b>Rust</b> and <b>Dart</b> later on...",
+          "want to try <b>Rust, WASM</b> and <b>Dart</b> later on...",
       },
 ];
 
@@ -48,6 +48,16 @@ export const programmingLanguages:ISkill[] = [
   {
     Icon: SiJavascript,
     name: 'JavaScript', 
+    level: '100%', 
+  }, 
+  {
+    Icon: SiHtml5,
+    name: 'HTML5, CSS3',
+    level: '100%',
+  },
+  {
+    Icon: SiTailwindcss,
+    name: 'Tailwind CSS',
     level: '100%', 
   },
   {
@@ -61,13 +71,8 @@ export const programmingLanguages:ISkill[] = [
     level: '100%',
   },
   {
-    Icon: SiAngular,
-    name: 'Angular',
-    level: '100%', 
-  },
-  {
-    Icon: FaVuejs,
-    name: 'Vue.js',
+    Icon: SiNextDotJs,
+    name: 'Next.js',
     level: '100%', 
   },
   {
@@ -80,11 +85,6 @@ export const programmingLanguages:ISkill[] = [
     name: 'TypeScript',
     level: '100%', 
   },
-  {
-    Icon: SiTailwindcss,
-    name: 'Tailwind',
-    level: '100%', 
-  }
 ];
 
 export const languages:ISkill[] = [
