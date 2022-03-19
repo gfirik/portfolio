@@ -1,7 +1,7 @@
 import { IProject, IService, ISkill } from './types';
 import { FaAngular, FaReact, FaVuejs } from "react-icons/fa";
 import { HiAcademicCap } from 'react-icons/hi';
-import { SiHtml5, SiNextDotJs, SiJavascript, SiRedux, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { SiFirebase, SiHtml5, SiNextDotJs, SiJavascript, SiRedux, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si';
 import { MdDevices, MdLanguage } from 'react-icons/md';
 import { GiArchiveResearch } from 'react-icons/gi';
 import { GrGraphQl } from 'react-icons/gr';
@@ -84,6 +84,11 @@ export const programmingLanguages:ISkill[] = [
     Icon: SiTypescript,
     name: 'TypeScript',
     level: '100%', 
+  },
+  {
+    Icon: SiFirebase,
+    name: 'Firebase',
+    level: '100%',
   },
 ];
 
