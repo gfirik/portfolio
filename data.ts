@@ -155,7 +155,7 @@ export const projects: IProject[] = [
     image_path: "/images/kanban.png",
     deployed_url: "https://kanban-project.netlify.app/",
     github_url: "https://github.com/gfirik/kanban-board",
-    category: ["javascript"],
+    category: ["javaScript"],
     key_techs: ["JavaScript", "SCSS"],
   },
   {
@@ -176,7 +176,7 @@ export const projects: IProject[] = [
     image_path: "/images/snake-game.png",
     deployed_url: "https://nokia-snake-game-js.netlify.app/",
     github_url: "https://github.com/gfirik/snake-game-js",
-    category: ["javascript"],
+    category: ["javaScript"],
     key_techs: ["JavaScript", "SCSS"],
   },
 ];

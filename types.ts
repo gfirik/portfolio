@@ -23,4 +23,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "javascript";
+export type Category = "react" | "javaScript";
