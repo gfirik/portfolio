@@ -19,7 +19,7 @@ export const services: IService[] = [
     Icon: FaReact,
     title: "React Development",
     about:
-      "I can build a beautiful, scalable and responsive UIs and web appss using <b>React</b> and <b>Redux</b>. And I build full stack apps with <b>Next.js</b> and its built-in components.",
+      "I can build a beautiful, scalable and responsive UIs and web apps using <b>React</b> and <b>Redux</b>. And I build full stack apps with <b>Next.js</b> and its built-in components.",
   },
   {
     Icon: GiStack,
