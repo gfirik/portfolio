@@ -125,8 +125,20 @@ export const languages: ISkill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 6,
+    name: "PayCard | Next.js & MongoDB",
+    description:
+      "PayCard with real-world credit cards integration. After validation, user will be able to proceed the payment" +
+      "The payment page is built with <b>Next.js</b> and <b>MongoDB</b>.",
+    image_path: "/images/payment-card.png",
+    deployed_url: "https://payment-receiver.vercel.app/",
+    github_url: "https://github.com/gfirik/payment-receiver-client",
+    category: ["react"],
+    key_techs: ["Next.js", "MongoDB", "Material-UI"],
+  },
+  {
     id: 5,
-    name: "Amazon.com Clone Project | E-Commerce App",
+    name: "Amazon.com Clone - eCommerce App | Next.js & Firebase",
     description:
       "Amazon Clone Project with Google Authentication and Stripe Payment Process." +
       "Users can sign in with their Google Account, add products to their basket, and proceed the payment",
@@ -134,11 +146,11 @@ export const projects: IProject[] = [
     deployed_url: "https://amazonclonewebsite.netlify.app/",
     github_url: "https://github.com/gfirik/amazon-clone",
     category: ["react"],
-    key_techs: ["Next.js", "Redux", "Firebase", "Tailwind", "Stripe"],
+    key_techs: ["Next.js", "Redux", "Firebase", "Tailwind"],
   },
   {
     id: 4,
-    name: "Share Ideas | Social Media Platform | Full Stack App",
+    name: "Share Ideas - Social Media Platform | Next.js & Supabase",
     description:
       "Share your ideas, get insights, read and post your thoughts. This app is basic social network platform where you can perform sign-up and sign-in, post, read, update and delete posts.",
     image_path: "/images/crud-ideas.png",
@@ -149,7 +161,7 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: "Kanban Board App",
+    name: "Kanban Board App | JavaScript",
     description:
       "Task manager app that you can create, edit, and delete tasks. Tasks will be saved in your browser. This app was built in Vanilla JavaScript.",
     image_path: "/images/kanban.png",
@@ -160,7 +172,7 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
-    name: "Quiz App via Trivia API",
+    name: "Quiz App | React & TypeScript | Trivia API",
     description:
       "In this app you will be able to test your basic knowledge by answering randomly selected questions.",
     image_path: "/images/react-ts-quiz.png",
@@ -171,7 +183,7 @@ export const projects: IProject[] = [
   },
   {
     id: 1,
-    name: "Snake Game",
+    name: "Snake Game | JavaScript",
     description: "Old snake game that we used to play in Nokia 3310",
     image_path: "/images/snake-game.png",
     deployed_url: "https://nokia-snake-game-js.netlify.app/",
