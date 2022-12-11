@@ -24,10 +24,11 @@ const About: NextPage = () => {
         <span className="font-mono text-xl font-extrabold text-ming">
           &lt;p&gt; &nbsp;
         </span>
-        I am <strong>JavaScript Front End / Full Stack Developer</strong>
-        with a passion for building applications and websites. I have experience
-        in React, Next.js, Node.js, Express, MongoDB, and more. To learn more
-        about me, you can download my resume.
+        I&apos;m a <b>JavaScript developer</b> based in Incheon, Korea, with
+        around 1 year of experience in the software industry. My focus area for
+        the past years has been front-end development with React and Next.js,
+        but I&apos;m also skilled in back-end development with <b>Node.js</b>{" "}
+        and <b>NestJS.</b>
         <span className="text-xl font-extrabold text-ming">
           &nbsp;&lt;/p&gt;
         </span>

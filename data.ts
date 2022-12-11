@@ -9,6 +9,9 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiMongodb,
+  SiNestjs,
+  SiDocker,
+  SiPrisma,
 } from "react-icons/si";
 import { MdDevices, MdLanguage } from "react-icons/md";
 import { GiArchiveResearch, GiStack } from "react-icons/gi";
@@ -17,21 +20,21 @@ import { GrGraphQl } from "react-icons/gr";
 export const services: IService[] = [
   {
     Icon: FaReact,
-    title: "React Development",
+    title: "Front End Development",
     about:
-      "I can build a beautiful, scalable and responsive UIs and web apps using <b>React</b> and <b>Redux</b>. And I build full stack apps with <b>Next.js</b> and its built-in components.",
+      "I have been using <b>React.js</b> and other related frameworks, such as <b>Next.js</b> to build SPAs and client side of my full stack apps",
   },
   {
     Icon: GiStack,
     title: "Full Stack Development",
     about:
-      "I use <b>MERN stack</b> to build fully functioning full stack applications.",
+      "I build Full Stack apps via <b>JavaScript</b> based library and frameworks, such as <b>Next.js</b> and <b>MERN</b> stack.",
   },
   {
-    Icon: GrGraphQl,
-    title: "GraphQL Development",
+    Icon: SiNestjs,
+    title: "Back End Development",
     about:
-      "I can build full stack apps with both in server and client side using <b>Apollo GraphQL</b> and its awesome features.",
+      "I can provide development of server side applications with <b>Node.js</b>, <b>Express.js</b> and <b>NestJS</b>.",
   },
   {
     Icon: MdDevices,
@@ -48,7 +51,8 @@ export const services: IService[] = [
   {
     Icon: GiArchiveResearch,
     title: "loading...",
-    about: "want to try <b>Rust, WASM</b> and <b>Dart</b> later on...",
+    about:
+      "learning <b>Rust</b>, building side projects using <b>NestJS</b> and <b>Next.js</b>",
   },
 ];
 
@@ -65,12 +69,7 @@ export const programmingLanguages: ISkill[] = [
   },
   {
     Icon: SiJavascript,
-    name: "JavaScript",
-    level: "100%",
-  },
-  {
-    Icon: SiTypescript,
-    name: "TypeScript",
+    name: "JavaScript & TypeScript",
     level: "100%",
   },
   {
@@ -79,13 +78,13 @@ export const programmingLanguages: ISkill[] = [
     level: "100%",
   },
   {
-    Icon: SiRedux,
-    name: "Redux",
+    Icon: GrGraphQl,
+    name: "GraphQL",
     level: "100%",
   },
   {
-    Icon: GrGraphQl,
-    name: "GraphQL",
+    Icon: SiPrisma,
+    name: "Prisma",
     level: "100%",
   },
   {
@@ -94,13 +93,28 @@ export const programmingLanguages: ISkill[] = [
     level: "100%",
   },
   {
+    Icon: SiNestjs,
+    name: "NestJS",
+    level: "100%",
+  },
+  {
     Icon: SiMongodb,
     name: "MongoDB",
+    level: "100%",
+  },
+  {
+    Icon: SiDocker,
+    name: "Docker",
     level: "100%",
   },
 ];
 
 export const languages: ISkill[] = [
+  {
+    Icon: MdLanguage,
+    name: "Uzbek",
+    level: "99%",
+  },
   {
     Icon: MdLanguage,
     name: "English",
@@ -115,11 +129,6 @@ export const languages: ISkill[] = [
     Icon: MdLanguage,
     name: "Russian",
     level: "50%",
-  },
-  {
-    Icon: MdLanguage,
-    name: "Uzbek",
-    level: "99%",
   },
 ];
 
