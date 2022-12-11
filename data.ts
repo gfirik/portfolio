@@ -138,7 +138,7 @@ export const projects: IProject[] = [
     name: "PayCard | Next.js & MongoDB",
     description:
       "PayCard with real-world credit cards integration. After validation, user will be able to proceed the payment" +
-      "The payment page is built with <b>Next.js</b> and <b>MongoDB</b>.",
+      "The payment page is built with Next.js and MongoDB.",
     image_path: "/images/payment-card.png",
     deployed_url: "https://payment-receiver.vercel.app/",
     github_url: "https://github.com/gfirik/payment-receiver-client",

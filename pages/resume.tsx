@@ -54,9 +54,9 @@ const Resume = () => {
                 Vernora Limited (July, 2022 ~ August, 2022)
               </p>
               <p className="my-3">
-                Built monitoring apps using Codebeamer AML integration with
-                Grafana & Loki and Retool. Developed full-stack application
-                using MERN stack.
+                Participated in building the Front End development of an ongoing
+                marketplace platform using React.js. Translated UIs into dynamic
+                applications using React.js.
               </p>
             </div>
             <div>
@@ -68,8 +68,8 @@ const Resume = () => {
               </p>
               <p className="my-3">
                 Built monitoring apps using Codebeamer AML integration with
-                Grafana & Loki and Retool Developed full-stack application using
-                MERN stack.
+                Grafana & Loki and Retool. Developed full-stack application
+                using MERN stack.
               </p>
             </div>
           </motion.div>
