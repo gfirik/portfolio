@@ -4,5 +4,11 @@
       "NODE_OPTIONS": "--openssl-legacy-provider"
     }
   },
-  "framework": "nextjs"
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node@18"
+    }
+  ]
 }
