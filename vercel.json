@@ -4,10 +4,6 @@
       "NODE_OPTIONS": "--openssl-legacy-provider"
     }
   },
-  "version": 2,
-  "functions": {
-    "api/*": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "framework": "nextjs",
+  "nodeVersion": "18.x"
 }
