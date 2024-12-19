@@ -8,7 +8,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node@18"
+      "use": "@vercel/next"
     }
   ]
 }
