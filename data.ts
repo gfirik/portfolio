@@ -1,12 +1,7 @@
 import { IProject, IService, ISkill } from "./types";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { HiAcademicCap } from "react-icons/hi";
+import { FaReact, FaNodeJs, FaTelegram } from "react-icons/fa";
 import {
-  SiHtml5,
-  SiJavascript,
-  SiRedux,
   SiReact,
-  SiTailwindcss,
   SiTypescript,
   SiMongodb,
   SiNestjs,
@@ -22,7 +17,7 @@ export const services: IService[] = [
     Icon: FaReact,
     title: "Front End Development",
     about:
-      "I have been using <b>React.js</b> and other related frameworks, such as <b>Next.js</b> to build SPAs and client side of my full stack apps",
+      "I have been using <b>React.js</b> and <b>Next.js</b> to build client side of my full stack apps",
   },
   {
     Icon: GiStack,
@@ -40,41 +35,30 @@ export const services: IService[] = [
     Icon: MdDevices,
     title: "Responsive Web Design",
     about:
-      "I can develop responsive web application for all types of screen sizes. And I use <b>Tailwind</b>, <b>SCSS</b>, <b>Bootstrap</b> and others.",
+      "I can develop responsive web applications for all types of screen sizes using <b>Tailwind</b>, <b>shadcn/ui</b>, <b>Bootstrap</b> and others.",
   },
   {
-    Icon: HiAcademicCap,
-    title: "Full Time Learner",
+    Icon: FaTelegram,
+    title: "Telegram Bots",
     about:
-      "a daily learner of new techs, <b>freeCodeCamp</b>, <b>Coursera</b> and <b>edX</b> student, doing master's at <b>YouTube</b> university.",
+      "can build <b>telegram bots</b> integrated with <b>WebApps</b>. Mainly use <b>grammY</b> framework to handle bot APIs.",
   },
   {
     Icon: GiArchiveResearch,
     title: "loading...",
-    about:
-      "learning <b>Rust</b>, building side projects using <b>NestJS</b> and <b>Next.js</b>",
+    about: "learning, exploring, reading, building side projects ...",
   },
 ];
 
 export const programmingLanguages: ISkill[] = [
   {
-    Icon: SiHtml5,
-    name: "HTML5, CSS3, SASS",
-    level: "100%",
-  },
-  {
-    Icon: SiTailwindcss,
-    name: "Tailwind CSS",
-    level: "100%",
-  },
-  {
-    Icon: SiJavascript,
-    name: "JavaScript & TypeScript",
+    Icon: SiTypescript,
+    name: "TypeScript",
     level: "100%",
   },
   {
     Icon: SiReact,
-    name: "React & Next.js",
+    name: "React & Next",
     level: "100%",
   },
   {
@@ -89,7 +73,7 @@ export const programmingLanguages: ISkill[] = [
   },
   {
     Icon: FaNodeJs,
-    name: "Node.js & Express",
+    name: "Node.js",
     level: "100%",
   },
   {
@@ -105,6 +89,11 @@ export const programmingLanguages: ISkill[] = [
   {
     Icon: SiDocker,
     name: "Docker",
+    level: "100%",
+  },
+  {
+    Icon: FaTelegram,
+    name: "Telegram Bots",
     level: "100%",
   },
 ];
@@ -133,6 +122,17 @@ export const languages: ISkill[] = [
 ];
 
 export const projects: IProject[] = [
+  {
+    id: 7,
+    name: "Ilm Library | Book sharing platform",
+    description:
+      "Web  App integrated with telegram bot, with seperate admin panel to manage project.",
+    image_path: "/images/ilm-library.png",
+    deployed_url: "https://library-bot.vercel.app/",
+    github_url: "https://github.com/gfirik/library-client",
+    category: ["react"],
+    key_techs: ["Next.js", "shadcn/ui", "AWS", "Supabase"],
+  },
   {
     id: 6,
     name: "PayCard | Next.js & MongoDB",

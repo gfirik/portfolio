@@ -24,11 +24,11 @@ const About: NextPage = () => {
         <span className="font-mono text-xl font-extrabold text-ming">
           &lt;p&gt; &nbsp;
         </span>
-        I&apos;m a <b>JavaScript developer</b> based in Incheon, Korea, with
+        I&apos;m a <b>Software developer</b> based in Incheon, Korea, with
         around 1 year of experience in the software industry. My focus area for
         the past years has been front-end development with <b>React</b> and{" "}
         <b>Next.js</b>, but I&apos;m also skilled in back-end development with{" "}
-        <b>Node.js</b> and <b>NestJS.</b>
+        <b>Node.js</b> and <b>Telegram bots.</b>
         <span className="text-xl font-extrabold text-ming">
           &nbsp;&lt;/p&gt;
         </span>

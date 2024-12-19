@@ -20,43 +20,19 @@ const Resume = () => {
       <div className="grid md:grid-cols-2 gap-6">
         <div className="col-span-1 gap-6">
           <motion.div variants={fadeInUp} initial="initial" animate="animate">
-            <h4 className="my-3 text-2xl font-bold">Education</h4>
-            <div>
-              <h5 className="my-2 text-xl font-bold">
-                Business Administration
-              </h5>
-              <p className="font-semibold">
-                Inha University, South Korea (expected December, 2023)
-              </p>
-            </div>
-          </motion.div>
-          <motion.div variants={fadeInUp} initial="initial" animate="animate">
             <h4 className="my-3 text-2xl font-bold">Experience</h4>
             <div>
               <h5 className="my-2 text-xl font-bold">
-                ---- Web3 Frontend Engineer
+                ---- Full Stack Developer
               </h5>
               <p className="font-semibold italic">
-                T7T Blockchain Lab (September, 2022 ~ present)
+                T7T Blockchain Lab (September, 2022 ~ March, 2023)
               </p>
               <p className="my-3">
-                Initially focused on front-end, using React.js, eCharts library
-                to develop user home dashboard and analytics panel. Contributed
-                to our back-end services for database, models and controllers
-                built in Node.js (Express) with MongoDB.
-              </p>
-            </div>
-            <div>
-              <h5 className="my-2 text-xl font-bold">
-                ---- React Developer Intern
-              </h5>
-              <p className="font-semibold italic">
-                Vernora Limited (July, 2022 ~ August, 2022)
-              </p>
-              <p className="my-3">
-                Participated in building the Front End development of an ongoing
-                marketplace platform using React.js. Translated UIs into dynamic
-                applications using React.js.
+                Developed and improved T7T&apos;s products, focusing on both
+                front-end and back-end development. Created user home dashboard
+                and analytics panel using React.js and eCharts library. Built
+                back-end services with Node.js and MongoDB.
               </p>
             </div>
             <div>
@@ -71,6 +47,14 @@ const Resume = () => {
                 Grafana & Loki and Retool. Developed full-stack application
                 using MERN stack.
               </p>
+            </div>
+          </motion.div>
+          <motion.div variants={fadeInUp} initial="initial" animate="animate">
+            <h4 className="my-3 text-2xl font-bold">Education</h4>
+            <div>
+              <h3 className="font-semibold">
+                Inha University, South Korea, 2024
+              </h3>
             </div>
           </motion.div>
         </div>

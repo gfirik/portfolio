@@ -21,7 +21,7 @@ export const Sidebar = () => {
       </h2>
       <p className="flex justify-center w-full my-3 text-lg font-inconsolata">
         <code className="px-2 py-1 bg-white2 dark:text-white dark:bg-black2">
-          #javaScriptDev
+          #softwareDeveloper
         </code>
       </p>
       <a
