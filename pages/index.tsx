@@ -26,8 +26,8 @@ const About: NextPage = () => {
         </span>
         I&apos;m a <b>Software Developer</b> from Bukhara, Uzbekistan, with 1+
         year of experience in full-stack development using <b>React</b>,{" "}
-        <b>Next.js</b>, and <b>Node.js</b>. I build user-friendly apps and
-        Telegram bots that solve real-world problems.
+        <b>Next.js</b>, and <b>Node.js</b>. I build user-friendly full stack
+        apps and Telegram bots that solve real-world problems.
         <span className="text-xl font-extrabold text-ming">
           &nbsp;&lt;/p&gt;
         </span>
