@@ -24,7 +24,7 @@ export const services: IService[] = [
     Icon: PiBrain,
     title: "AI-Integrated Applications",
     about:
-      "Integrating <b>AI models</b> into web and Telegram apps — for example, image analysis with <b>Gemini API</b> in nutrition tools like <b>KaloriyaX</b>.",
+      "Integrating <b>AI</b> into web apps and Telegram bots to automate tasks, enhance interactivity, and deliver smarter user experiences.",
   },
   {
     Icon: MdDevices,
