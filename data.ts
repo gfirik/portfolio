@@ -1,5 +1,5 @@
 import { IProject, IService, ISkill } from "./types";
-import { FaReact, FaNodeJs, FaTelegram } from "react-icons/fa";
+import { FaNodeJs, FaTelegram } from "react-icons/fa";
 import {
   SiReact,
   SiTypescript,
@@ -11,25 +11,27 @@ import {
 import { MdDevices, MdLanguage } from "react-icons/md";
 import { GiArchiveResearch, GiStack } from "react-icons/gi";
 import { GrGraphQl } from "react-icons/gr";
+import { IoConstruct } from "react-icons/io5";
+import { PiBrain } from "react-icons/pi";
 
 export const services: IService[] = [
   {
-    Icon: FaReact,
-    title: "Front End Development",
-    about:
-      "I have been using <b>React.js</b> and <b>Next.js</b> to build client side of my full stack apps",
-  },
-  {
     Icon: GiStack,
-    title: "Full Stack Development",
+    title: "Full-Stack Development",
     about:
       "I build Full Stack apps via <b>JavaScript</b> based library and frameworks, such as <b>Next.js</b> and <b>MERN</b> stack.",
   },
   {
-    Icon: SiNestjs,
-    title: "Back End Development",
+    Icon: FaTelegram,
+    title: "Telegram Bots & Web Apps",
     about:
-      "I can provide development of server side applications with <b>Node.js</b>, <b>Express.js</b> and <b>NestJS</b>.",
+      "Can build <b>Telegram bots</b> integrated with <b>WebApps</b>. Mainly use <b>grammY</b> framework to handle bot APIs.",
+  },
+  {
+    Icon: PiBrain,
+    title: "AI-Integrated Applications",
+    about:
+      "Integrating <b>AI models</b> into web and Telegram apps — for example, image analysis with <b>Gemini API</b> in nutrition tools like <b>KaloriyaX</b>.",
   },
   {
     Icon: MdDevices,
@@ -38,15 +40,16 @@ export const services: IService[] = [
       "I can develop responsive web applications for all types of screen sizes using <b>Tailwind</b>, <b>shadcn/ui</b>, <b>Bootstrap</b> and others.",
   },
   {
-    Icon: FaTelegram,
-    title: "Telegram Bots",
+    Icon: IoConstruct,
+    title: "Startup Prototyping",
     about:
-      "can build <b>telegram bots</b> integrated with <b>WebApps</b>. Mainly use <b>grammY</b> framework to handle bot APIs.",
+      "I enjoy building and launching <b>early-stage ideas</b>, focusing on fast iterations, real user feedback, and solving real-world problems.",
   },
   {
     Icon: GiArchiveResearch,
-    title: "loading...",
-    about: "learning, exploring, reading, building side projects ...",
+    title: "Continuous Learning",
+    about:
+      "Exploring new technologies, reading, and building side projects to stay sharp.",
   },
 ];
 
