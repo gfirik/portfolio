@@ -17,7 +17,7 @@ const Resume = () => {
         <link rel="icon" href="/iconLogo.png" />
         <title>Resume | Firdavs | Portfolio</title>
       </Head>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 gap-6 mb-4">
         <div className="col-span-1 gap-6">
           <motion.div variants={fadeInUp} initial="initial" animate="animate">
             <h4 className="my-3 text-2xl font-bold">Experience</h4>

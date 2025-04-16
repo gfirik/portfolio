@@ -121,11 +121,11 @@ export const projects: IProject[] = [
   },
   {
     id: 8,
-    name: "Yemak AI | AI-Powered Food Analysis",
+    name: "malina | AI-powered food image analysis",
     description:
-      "Web  App integrated with telegram bot, with seperate admin panel to manage project.",
-    image_path: "/images/yemak.png",
-    deployed_url: "https://yemak-ai.vercel.app/",
+      "Snap, Upload, and Instantly Get Nutritional Insights with malina's AI-powered food image analysis platform.",
+    image_path: "/images/malina.png",
+    deployed_url: "https://malina-ai.vercel.app/",
     github_url: "https://github.com/gfirik/kaloriax-web",
     category: ["next.js"],
     key_techs: ["Next.js", "shadcn/ui", "Gemini", "Supabase"],
