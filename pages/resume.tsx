@@ -23,6 +23,20 @@ const Resume = () => {
             <h4 className="my-3 text-2xl font-bold">Experience</h4>
             <div>
               <h5 className="my-2 text-xl font-bold">
+                ---- Software Developer
+              </h5>
+              <p className="font-semibold italic">
+                Self-employed (April, 2024 ~ Present)
+              </p>
+              <p className="my-3">
+                Building and launching software while exploring innovative
+                solutions with technology. Gaining hands-on experience in
+                product development, full-stack engineering, and early-stage
+                startup execution.
+              </p>
+            </div>
+            <div>
+              <h5 className="my-2 text-xl font-bold">
                 ---- Full Stack Developer
               </h5>
               <p className="font-semibold italic">
